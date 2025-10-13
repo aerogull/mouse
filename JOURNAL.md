@@ -19,3 +19,9 @@ i worked with the adafruit feather m0 devboard and started customizing it to my 
 i added the linear voltage regulator and supporting electronics for the 1.9v current required to run the paw3395 sensor. i also started adding the wiring for the mouse switches. they use spst switches from omron. i also added rc filter to each of the switches, using a 1.5kOhm resistor and a 1uF capaciator. also, i sectioned off the schematic.![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--523bb50679f0954ff9352f04f2b31dc59555c1fd/image.png)
   
 
+## 10/13/2025 - finished the schemmatic  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--bb5985152617bab3fe8f6054baf4ab9fdcbb7fe5/image.png)
+
+i finished wiring all the separate parts of the board together, and added an ec11 rotary encoder for a scroll wheel. I wired up all the serial spi and interrupt pins for the mouse sensor, changed the micro-usb to usb-c as well as wiring up 2 more leds on an active-low configuration to the main mcu.  
+
