@@ -25,3 +25,8 @@ i added the linear voltage regulator and supporting electronics for the 1.9v cur
 
 i finished wiring all the separate parts of the board together, and added an ec11 rotary encoder for a scroll wheel. I wired up all the serial spi and interrupt pins for the mouse sensor, changed the micro-usb to usb-c as well as wiring up 2 more leds on an active-low configuration to the main mcu.  
 
+## 10/19/2025 - sooooo, i hit a snag  
+
+i thought i had finished the schematic, but... i forgot the wireless chip. i decided to use the nrf24L01, which requires a lot of work and exact capacitor sizes, so i've been working on that. it's been mostly wired up, so i'll go through the final checks needed to verify all the resistor and cap values are correct. i also might change out the microcontroller if the samd21g18a takes too much power...![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--511648c1afcb8055f9d1057ac80b20e60b2ba810/image.png)
+  
+
