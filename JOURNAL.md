@@ -19,3 +19,19 @@ i worked with the adafruit feather m0 devboard and started customizing it to my 
 i added the linear voltage regulator and supporting electronics for the 1.9v current required to run the paw3395 sensor. i also started adding the wiring for the mouse switches. they use spst switches from omron. i also added rc filter to each of the switches, using a 1.5kOhm resistor and a 1uF capaciator. also, i sectioned off the schematic.![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTMzNSwicHVyIjoiYmxvYl9pZCJ9fQ==--523bb50679f0954ff9352f04f2b31dc59555c1fd/image.png)
   
 
+## 10/13/2025 - finished the schemmatic  
+
+![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjA3NiwicHVyIjoiYmxvYl9pZCJ9fQ==--bb5985152617bab3fe8f6054baf4ab9fdcbb7fe5/image.png)
+
+i finished wiring all the separate parts of the board together, and added an ec11 rotary encoder for a scroll wheel. I wired up all the serial spi and interrupt pins for the mouse sensor, changed the micro-usb to usb-c as well as wiring up 2 more leds on an active-low configuration to the main mcu.  
+
+## 10/19/2025 7 AM - sooooo, i hit a snag  
+
+i thought i had finished the schematic, but... i forgot the wireless chip. i decided to use the nrf24L01, which requires a lot of work and exact capacitor sizes, so i've been working on that. it's been mostly wired up, so i'll go through the final checks needed to verify all the resistor and cap values are correct. i also might change out the microcontroller if the samd21g18a takes too much power...![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--511648c1afcb8055f9d1057ac80b20e60b2ba810/image.png)
+  
+
+## 10/19/2025 10 AM - welp, time to rip up almost everything  
+
+i've decided to not use the atmel samdm21g18a. even though it has amazing support, i need a really good radio. specifically, i wanted to use one of the nrf52 packages. the problem is, they are SoC designs, so they have a cortex-m4 core built-in. so, to get the good rf, i would have to take out the samd21 chip. which is okay! kind of... there's a lot less support built around this chip, so the chances of making mistakes are very high, but it's a risk i can take.![image.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzM5OSwicHVyIjoiYmxvYl9pZCJ9fQ==--03d3fb7c0ead849ae5a39a07986ae7f11e077502/image.png)_goodbye..._
+  
+
