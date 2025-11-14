@@ -6105,16 +6105,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 34.29) (xy 229.87 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db58f7fb-48ca-4ce8-b1ef-3c1ac051debd")
-	)
-	(wire
-		(pts
 			(xy 217.17 116.84) (xy 222.25 116.84)
 		)
 		(stroke
@@ -6385,28 +6375,6 @@
 			)
 		)
 	)
-	(global_label "LEDREDIN"
-		(shape input)
-		(at 219.71 22.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "024e7816-4a74-442f-9477-87dfcd56fb29")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 207.6534 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LEDGREENIN"
 		(shape input)
 		(at 157.48 87.63 180)
@@ -6486,28 +6454,6 @@
 		(uuid "13510123-12d8-4a2f-9e51-84b7fb48975b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 107.3066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LEDREDOUT"
-		(shape input)
-		(at 231.14 41.91 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18beef4d-8b03-4ea8-92a5-e78d79c25622")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 55.6599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,75 +15677,6 @@
 			(project "mouse"
 				(path "/533ef031-04e0-46be-a858-1bb00dbca72d"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 231.14 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fddcd77e-eca7-483c-b7e2-84829737a670")
-		(property "Reference" "R4"
-			(at 226.06 40.386 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1kΩ"
-			(at 225.298 42.672 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 230.124 37.846 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 231.14 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75ee24d3-8d2d-4a61-9117-218d6cf16fdb")
-		)
-		(pin "2"
-			(uuid "afc732d3-e30f-4cc9-ab8b-078bfbb255b0")
-		)
-		(instances
-			(project "mouse"
-				(path "/533ef031-04e0-46be-a858-1bb00dbca72d"
-					(reference "R4")
 					(unit 1)
 				)
 			)
