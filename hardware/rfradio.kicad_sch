@@ -3057,7 +3057,7 @@
 	)
 	(global_label "LED"
 		(shape input)
-		(at 82.55 69.85 90)
+		(at 135.89 69.85 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3067,7 +3067,7 @@
 		)
 		(uuid "4afcbd8a-bdd0-48cd-9547-69dccf8b2f53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 63.4177 90)
+			(at 135.89 63.4177 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,28 +3253,6 @@
 			)
 		)
 	)
-	(global_label "USBCC1"
-		(shape input)
-		(at 135.89 69.85 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "852381c5-8f23-499e-9bc1-59d623a95df6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 59.3053 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Switch3"
 		(shape input)
 		(at 123.19 69.85 90)
@@ -3420,28 +3398,6 @@
 		(uuid "b2b11b5b-f228-480c-9b7c-059ddeb03f0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.47 64.0224 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USBCC2"
-		(shape input)
-		(at 138.43 69.85 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd468f5a-841e-49ae-9204-f5ede3da28af")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 138.43 59.3053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
