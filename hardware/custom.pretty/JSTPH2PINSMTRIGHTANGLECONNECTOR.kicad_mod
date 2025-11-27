@@ -1,0 +1,275 @@
+(footprint "JSTPH2PINSMTRIGHTANGLECONNECTOR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST-PH 2-PIN SMT RIGHT ANGLE CONNECTOR-5")
+	(tags "Connector")
+	(property "Reference" "J**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "16f1ee0b-d7d5-48fa-80b8-12036b223b08")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "JSTPH2PINSMTRIGHTANGLECONNECTOR"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8627e8d2-1715-4b34-beed-f9d42208da43")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "362f83c7-967e-4eda-8db4-9af519d6b627")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "411ba173-d53d-48c5-9706-dff213dbefeb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 -3)
+		(end -1.8 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "223fe3c0-2c94-44ad-9344-ced50caf7f59")
+	)
+	(fp_line
+		(start -3.95 -0.8)
+		(end -3.95 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5229c05-cc98-4ec3-b581-36b5de22c0ad")
+	)
+	(fp_line
+		(start -2.2 3)
+		(end 2.2 3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d433503-7739-4d86-a30a-c001fd48c5d0")
+	)
+	(fp_line
+		(start -1 -6.6)
+		(end -1 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f4aadc0b-8f56-467e-a795-ae021ee23f78")
+	)
+	(fp_line
+		(start -1 -6.5)
+		(end -1 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b9aa156-3ece-4b47-a137-b2998fdbc996")
+	)
+	(fp_line
+		(start 1.8 -3)
+		(end 3.95 -3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31e784a2-423a-49ce-b77f-6165b731a85a")
+	)
+	(fp_line
+		(start 3.95 -3)
+		(end 3.95 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a8f83af4-4dd7-4374-8b0e-ee127a8e9335")
+	)
+	(fp_arc
+		(start -1 -6.6)
+		(mid -0.95 -6.55)
+		(end -1 -6.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f11f31c-c634-448a-b469-17c375b4205b")
+	)
+	(fp_arc
+		(start -1 -6.5)
+		(mid -1.05 -6.55)
+		(end -1 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c654c261-a2da-4120-9c0f-2a81e47bc646")
+	)
+	(fp_line
+		(start -5.1 -7)
+		(end 5.1 -7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2048c8ef-8de6-4a35-ba24-bed538414dd0")
+	)
+	(fp_line
+		(start -5.1 4)
+		(end -5.1 -7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e16726ae-1b51-4c35-a023-01c264dadedd")
+	)
+	(fp_line
+		(start 5.1 -7)
+		(end 5.1 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "53b2f057-125d-4f17-ad6e-c35aaab55baf")
+	)
+	(fp_line
+		(start 5.1 4)
+		(end -5.1 4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "51c29883-65a0-4997-8b34-075caa05fe65")
+	)
+	(fp_line
+		(start -3.95 -3)
+		(end -3.95 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "917b8295-86fc-422a-8357-4be55dbf5457")
+	)
+	(fp_line
+		(start -3.95 3)
+		(end 3.95 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "131ac0ed-4ce7-456b-bb2c-8482f512ae06")
+	)
+	(fp_line
+		(start 3.95 -3)
+		(end -3.95 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "becaa8f0-d803-404d-aac4-e7b5d8fbf9ed")
+	)
+	(fp_line
+		(start 3.95 3)
+		(end 3.95 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0569fd0b-2fd8-4a0b-872a-2b47e262ce7b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.5 0)
+		(layer "F.Fab")
+		(uuid "e9e02278-07bd-4658-ad00-a7ba6c51fec7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -4.25)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3ad272f2-51e5-485f-9bf6-d0e4d41ba2b4")
+	)
+	(pad "2" smd rect
+		(at 1 -4.25)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a826467d-8324-42b5-9cb4-39602d1d8202")
+	)
+	(pad "MP1" smd rect
+		(at -3.35 1.3)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "10f7c27b-d6bb-496d-bba9-f417716ab2c9")
+	)
+	(pad "MP2" smd rect
+		(at 3.35 1.3)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9769f511-6e89-4d41-9490-29f0e323e6df")
+	)
+	(embedded_fonts no)
+	(model "JST-PH_2-PIN_SMT_RIGHT_ANGLE_CONNECTOR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
