@@ -6824,7 +6824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1μF"
 			(at 76.2 115.5699 0)
 			(effects
 				(font
@@ -6960,7 +6960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1μF"
 			(at 76.2 152.3999 0)
 			(effects
 				(font
@@ -7911,7 +7911,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 121.92 184.1499 0)
 			(effects
 				(font
@@ -8248,7 +8248,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 64.77 187.9599 0)
 			(effects
 				(font
@@ -8318,7 +8318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1μF"
 			(at 76.2 187.9599 0)
 			(effects
 				(font
@@ -9376,7 +9376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 238.76 121.9199 0)
 			(effects
 				(font
@@ -10524,7 +10524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 64.77 115.5699 0)
 			(effects
 				(font
@@ -11070,7 +11070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 34.29 147.3199 0)
 			(effects
 				(font
@@ -11140,7 +11140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 134.62 184.1499 0)
 			(effects
 				(font
@@ -12155,7 +12155,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 240.03 38.0999 0)
 			(effects
 				(font
@@ -13194,7 +13194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 204.47 152.3999 0)
 			(effects
 				(font
@@ -13611,7 +13611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7μF"
 			(at 195.58 129.5399 0)
 			(effects
 				(font
@@ -13681,7 +13681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 64.77 152.3999 0)
 			(effects
 				(font
@@ -13751,7 +13751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10μF"
 			(at 109.22 184.1499 0)
 			(effects
 				(font
