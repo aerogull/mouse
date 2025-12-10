@@ -3883,7 +3883,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.0μF"
+		(property "Value" "1μF"
 			(at 18.288 116.586 0)
 			(effects
 				(font
@@ -5719,7 +5719,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0μF"
+		(property "Value" "1μF"
 			(at 222.25 148.59 90)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-26409792925995908
+26411558066046167
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104922,6 +104922,13 @@ Crystal or Oscillator
 0
 2
 2
+custom
+AMPHENOL_12401598E4_2A
+
+
+0
+28
+28
 custom
 EC10E1220503
 EC10E1220503-3

@@ -8395,7 +8395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Amphenol_12401548E4-2A"
+		(property "Footprint" "custom:AMPHENOL_12401598E4_2A"
 			(at 162.56 38.1 0)
 			(effects
 				(font

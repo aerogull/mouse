@@ -53,3 +53,11 @@ _**Warning: The PAW3395 Driver is Propiretiary, and Can Not Be Provided by Me**_
 |U6|	1|	SPX3819M5-L-5-0|	|	|	|	Package_TO_SOT_SMD:SOT-23-5|	https://www.exar.com/content/document.ashx?id=22106&languageid=1033&type=Datasheet&partnumber=SPX3819&filename=SPX3819.pdf&part=SPX3819|
 |Y1|	1|	32.768 Hz|	|	|	|	custom:FC135327680KAA|	~|
 |Y2|	1|	32 Hz|	|	|	|	custom:ABM8A32000MHZD2YT3|	~|
+
+
+part sources for my use:
+
+https://www.aliexpress.us/item/3256808047644394.html
+https://www.aliexpress.us/item/2251832785225269.html
+https://www.aliexpress.us/item/3256808439402083.html
+https://www.aliexpress.us/item/3256808650485013.html
